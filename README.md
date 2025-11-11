@@ -20,7 +20,8 @@ For sector trends, Financials dominated with a long-term return of 529%.
 📊 Interactive Dashboard
 
 ✅ View the Tableau Dashboard:
-👉 [INSERT YOUR TABLEAU LINK HERE]
+[![Dashboard Preview] (https://github.com/Muinz400/Wolf-Of-Wall-Street-Stock-Analysis/blob/main/Wolf%20Of%20Wall-Street%20Stock%20Analysis%20Dashboard.png?raw=true)] (https://public.tableau.com/views/WolfofWallStreetStockAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 🛠 Tools Used
 
