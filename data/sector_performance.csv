@@ -1,0 +1,73 @@
+sector,year,total_return_frac,total_return_pct,sector_rank
+Financials,2016,6.435635,643.56,1
+Healthcare,2016,4.399041,439.90,2
+Consumer Discretionary,2016,3.457157,345.72,3
+Technology,2016,1.800503,180.05,4
+Telecommunications,2016,1.746157,174.62,5
+Energy,2016,0.713314,71.33,6
+Automotive,2016,0.268265,26.83,7
+Consumer Staples,2016,0.258158,25.82,8
+Healthcare,2017,4.721865,472.19,1
+Financials,2017,3.777061,377.71,2
+Consumer Discretionary,2017,3.207963,320.80,3
+Technology,2017,2.004798,200.48,4
+Telecommunications,2017,1.521224,152.12,5
+Energy,2017,0.707676,70.77,6
+Consumer Staples,2017,0.561676,56.17,7
+Automotive,2017,0.224900,22.49,8
+Consumer Discretionary,2018,5.047087,504.71,1
+Healthcare,2018,4.209385,420.94,2
+Financials,2018,4.060271,406.03,3
+Telecommunications,2018,2.337988,233.80,4
+Technology,2018,2.056096,205.61,5
+Energy,2018,0.984655,98.47,6
+Automotive,2018,0.606386,60.64,7
+Consumer Staples,2018,0.315446,31.54,8
+Consumer Discretionary,2019,7.388819,738.88,1
+Financials,2019,4.832690,483.27,2
+Healthcare,2019,4.056307,405.63,3
+Technology,2019,3.427478,342.75,4
+Telecommunications,2019,2.411103,241.11,5
+Energy,2019,0.962819,96.28,6
+Automotive,2019,0.440103,44.01,7
+Consumer Staples,2019,0.381011,38.10,8
+Consumer Discretionary,2020,8.340673,834.07,1
+Financials,2020,6.079386,607.94,2
+Healthcare,2020,5.471899,547.19,3
+Technology,2020,2.981339,298.13,4
+Energy,2020,2.740225,274.02,5
+Telecommunications,2020,2.331756,233.18,6
+Automotive,2020,1.180328,118.03,7
+Consumer Staples,2020,0.479043,47.90,8
+Healthcare,2021,4.874893,487.49,1
+Financials,2021,4.872049,487.20,2
+Telecommunications,2021,2.444217,244.42,3
+Energy,2021,1.994453,199.45,4
+Technology,2021,1.876076,187.61,5
+Consumer Discretionary,2021,1.738569,173.86,6
+Automotive,2021,1.520300,152.03,7
+Consumer Staples,2021,0.212630,21.26,8
+Financials,2022,4.664071,466.41,1
+Consumer Discretionary,2022,3.788848,378.88,2
+Healthcare,2022,3.718904,371.89,3
+Telecommunications,2022,2.563814,256.38,4
+Energy,2022,2.088458,208.85,5
+Technology,2022,1.575756,157.58,6
+Automotive,2022,1.224367,122.44,7
+Consumer Staples,2022,0.349700,34.97,8
+Healthcare,2023,6.081210,608.12,1
+Financials,2023,5.788970,578.90,2
+Consumer Discretionary,2023,2.565458,256.55,3
+Technology,2023,2.048747,204.87,4
+Telecommunications,2023,1.941391,194.14,5
+Energy,2023,0.814719,81.47,6
+Automotive,2023,0.540232,54.02,7
+Consumer Staples,2023,0.246091,24.61,8
+Financials,2024,7.110958,711.10,1
+Healthcare,2024,6.069762,606.98,2
+Consumer Discretionary,2024,2.385743,238.57,3
+Technology,2024,1.818317,181.83,4
+Telecommunications,2024,1.806577,180.66,5
+Consumer Staples,2024,0.849638,84.96,6
+Energy,2024,0.732766,73.28,7
+Automotive,2024,0.517782,51.78,8
