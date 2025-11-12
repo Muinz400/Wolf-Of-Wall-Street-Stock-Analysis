@@ -12,6 +12,7 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 ## Interactive Dashboard
 
 **View the Tableau Story:**  
+
 [![Dashboard Preview](Wolf-Of-Wall-Street-Stock-Analysis.png)](https://public.tableau.com/views/WolfofWallStreetAData-DrivenStockMarketAnalysis20162024/WolfofWallStreetAData-DrivenStockMarketAnalysis20162024?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 > The Tableau Story walks through all 6 SQL analyses and concludes with a full investor dashboard — letting viewers slide through each step of the analysis and end with a visual summary of insights.
@@ -96,34 +97,6 @@ This project analyzed 14 stocks across key U.S. industries:
 
 ---
 
-## Project Structure
-
-/data
-├── cleaned_stocks.csv
-├── top_performing_stocks.csv
-├── simulated_portfolio.csv
-├── sector_performance.csv
-├── volatility_index.csv
-├── rolling_30day_return.csv
-├── yoy_growth.csv
-
-/sql
-├── 01_top_performing_stocks.sql
-├── 02_yoy_growth.sql
-├── 03_volatility_index.sql
-├── 04_moving_averages.sql
-├── 05_sector_performance.sql
-├── 06_simulated_portfolio.sql
-
-/python
-├── data_cleaning.ipynb
-├── cleaning_script.py
-
-/tableau
-├── dashboard_link.txt
-
-
----
 
 ## Data Disclaimer
 
@@ -165,4 +138,5 @@ This project strengthened my ability to:
 
 **Connect With Me:**  
   www.linkedin.com/in/manyang-taal 
+  
   manyangtaal5@gmail.com.com  
