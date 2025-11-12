@@ -1,175 +1,168 @@
-🐺 Wolf of Wall Street Stock Analysis
-Stock Market Analytics (2016–2024) — End-to-End SQL + Python + Tableau Project
+# 🐺 Wolf of Wall Street: A Data-Driven Stock Market Analysis (2016–2024)
 
-This project analyzes the long-term performance of 14 top U.S. stocks across major sectors from 2016 to 2024.
-I wanted to understand:
+### End-to-End SQL + Python + Tableau Project
 
-✅ Which stocks created the best long-term returns
-✅ Which sectors were the strongest performers
-✅ Which stocks were the most stable / least volatile
-✅ How volatility impacts actual investment outcomes
-✅ What a $10K investment in 2016 would be worth today
+This project explores nine years of U.S. stock market performance (2016–2024) across **14 leading companies in top-performing sectors**.  
+The goal was to uncover which stocks delivered the best long-term returns, which sectors consistently outperformed, and how volatility (risk) shaped investment outcomes — all from the perspective of a **new investor** deciding where to put their money.
 
-Using SQL, Python, and Tableau, I transformed raw historical price data into a full analytics story designed to help new investors balance maximum profit vs minimum risk.
+Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data into an interactive story that visualizes growth trends, sector performance, and risk-adjusted returns.
 
-Example:
-If you invested $10K in 2016, Tesla (TSLA) would have grown your money the most…
-But the most stable stock was Johnson & Johnson (JNJ).
-For sector trends, Financials dominated with a long-term return of 529%.
+---
 
-📊 Interactive Dashboard
+## 📊 Interactive Dashboard
 
-✅ View the Tableau Dashboard:
-[![Dashboard Preview] (https://github.com/Muinz400/Wolf-Of-Wall-Street-Stock-Analysis/blob/main/Wolf%20Of%20Wall-Street%20Stock%20Analysis%20Dashboard.png?raw=true)] (https://public.tableau.com/views/WolfofWallStreetStockAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**View the Tableau Story:**  
+👉 [INSERT YOUR TABLEAU PUBLIC LINK HERE]
 
+> The Tableau Story walks through all 6 SQL analyses and concludes with a full investor dashboard — letting viewers slide through each step of the analysis and end with a visual summary of insights.
 
-🛠 Tools Used
+---
 
-PostgreSQL – financial calculations, window functions, CTEs
+## 🛠 Tools Used
 
-SQL – data modeling, return metrics, portfolio simulations
+| Tool | Purpose |
+|------|----------|
+| **PostgreSQL** | Complex financial queries, window functions, and CTEs |
+| **SQL** | Data modeling, return metrics, simulated portfolio logic |
+| **Python** | Data cleaning, preprocessing, automation scripts |
+| **CSV Modeling** | Structured exports for BI visualization |
+| **Tableau Public** | KPI visualization, sector charts, dashboard design |
 
-Python – cleaning raw CSVs and automating preprocessing
+---
 
-CSV Modeling – structured exports for BI and analytics
+## Key Insights
 
-Tableau Public – KPI visuals, bar charts, sector insights, dashboard layout
+- **Top Performing Stock:** Tesla (TSLA) delivered the highest cumulative return (~2,627%).  
+- **$10K Simulation:** A $10,000 investment in TSLA in 2016 grew to **≈ $272,000** by 2024.  
+- **Most Consistent Stock:** Johnson & Johnson (JNJ) showed the lowest volatility — ideal for risk-averse investors.  
+- **Best Performing Sector:** Financials dominated with a **529%** total return.  
+- **Volatility Patterns:** Tech tickers showed high growth but larger drawdowns, while Healthcare and Consumer Staples remained steady.
 
-📈 Key Insights
-🚀 Top Performing Stock (2016–2024)
+---
 
-Tesla (TSLA) delivered the strongest cumulative return AND the highest simulated portfolio growth.
+## Query Summaries
 
-💰 $10,000 Investment Simulation
+Each SQL script produced a unique dataset that contributed to the full Tableau story.
 
-A $10K investment in TSLA in 2016 grew to:
-👉 $272,668
+| # | Query | Purpose & Key Findings |
+|---|--------|------------------------|
+| **1️ Top Performing Stocks** | Ranked total returns (2016–2024). TSLA led the decade. |
+| **2️ Year-over-Year Growth** | Measured annual price growth. Tech and Financials showed the strongest YoY momentum; Healthcare maintained steady gains. |
+| **3️ Volatility Index** | Calculated yearly price fluctuation. JNJ was the most stable, TSLA the most volatile. |
+| **4️ Moving Averages** | Compared 50-day vs 200-day trends to classify momentum as Bullish or Bearish. |
+| **5️ Sector Performance** | Aggregated returns by sector. Financials led, followed by Tech and Industrials. |
+| **6 Simulated $10K Portfolio** | Modeled a $10K investment per stock since 2016 — TSLA yielded the highest growth. |
 
-🧊 Most Consistent / Least Volatile Stock
+---
 
-Johnson & Johnson (JNJ) showed the lowest volatility, making it the safest long-term defensive pick.
+## Year-Over-Year (YoY) Trend Analysis
 
-🏦 Top Performing Sector
+This analysis tracked each stock’s average yearly growth to identify consistent compounders versus volatile performers.
 
-The Financials sector posted the highest long-term growth at 529%.
+**Highlights:**
+- **Tech and Financials** had the most persistent upward momentum.  
+- **TSLA** surged in 2020–2021 but faced post-rally volatility.  
+- **Healthcare & Consumer Staples** (like **JNJ**, **PG**) showed slower but steady gains.  
 
-🌡 Volatility Patterns
+YoY trends revealed which stocks built sustainable value over time — not just short-term spikes.
 
-Tech stocks showed the largest price swings.
-Healthcare and Consumer Staples remained the most stable.
+---
 
-🏛 Sector Representation
+## Dashboard Overview
 
-The 14 selected stocks were chosen across major U.S. sectors:
+The Tableau Dashboard brings together all insights into one cohesive investor view:
 
-Technology
+- **KPI Cards:** Display top stock, safest stock, and best sector.  
+- **Sector Chart:** Compares cumulative performance by industry.  
+- **Volatility Index:** Visualizes risk across stocks.  
+- **$10K Portfolio Simulation:** Quantifies long-term growth potential.  
 
-Financials
+> The dashboard tells one clear story — **where long-term investors could find both profit and stability.**
 
-Healthcare
+---
 
-Consumer Staples
+## Top Sectors Represented
 
-Energy
+This project analyzed 14 stocks across key U.S. industries:
 
-Industrials
+- Technology  
+- Financials  
+- Healthcare  
+- Consumer Staples  
+- Energy  
+- Industrials  
 
-Among these, Financials showed the strongest and most consistent long-term performance.
+**Financials** achieved the strongest cumulative growth, while **Healthcare** remained the most consistent through market cycles.
 
-📁 Project Structure
+---
+
+## Project Structure
+
 /data
-    cleaned_stocks.csv
-    top_performing_stocks.csv
-    simulated_portfolio.csv
-    sector_performance.csv
-    volatility_index.csv
-    rolling_30day_return.csv
-    yoy_growth.csv
+├── cleaned_stocks.csv
+├── top_performing_stocks.csv
+├── simulated_portfolio.csv
+├── sector_performance.csv
+├── volatility_index.csv
+├── rolling_30day_return.csv
+├── yoy_growth.csv
 
 /sql
-    01_top_performing_stocks.sql
-    02_yoy_growth.sql
-    03_volatility_index.sql
-    04_moving_averages.sql
-    05_sector_performance.sql
-    06_highest_volume_days.sql
-    07_rolling_returns.sql
-    08_simulated_portfolio.sql
+├── 01_top_performing_stocks.sql
+├── 02_yoy_growth.sql
+├── 03_volatility_index.sql
+├── 04_moving_averages.sql
+├── 05_sector_performance.sql
+├── 06_simulated_portfolio.sql
 
 /python
-    data_cleaning.ipynb
-    cleaning_script.py
+├── data_cleaning.ipynb
+├── cleaning_script.py
 
 /tableau
-    dashboard_link.txt
+├── dashboard_link.txt
 
-README.md
 
-⚠️ Data Disclaimer
+---
 
-The stock prices used in this project do not include split-adjusted or dividend-adjusted pricing.
+## Data Disclaimer
 
+The stock prices in this project **do not include split-adjusted or dividend-adjusted pricing**.  
 Therefore:
+- Results may differ from real investable performance.  
+- Figures are intended for **comparative and educational analysis only.**  
+- This is **not financial advice.**
 
-Results may differ from real investable performance
+---
 
-Figures are intended for comparative and educational analysis
+## Final Insights
 
-This project is not financial advice
+- TSLA dominated in long-term total return.  
+- JNJ remained the most stable stock by volatility.  
+- Financials led all sectors in overall performance.  
+- $10K in TSLA (2016) ≈ $272K by 2024.  
+- Dashboard visualization made risk vs. reward easy to compare.
 
-📈 Final Insights
+This analysis gives investors a **data-driven perspective** on balancing growth, stability, and sector strength over time.
 
-TSLA produced the highest long-term return and the strongest $10K portfolio outcome
+---
 
-JNJ was the least volatile, making it the safest choice for consistency
+## What I Learned
 
-Financials delivered the strongest sector-level growth
+This project strengthened my ability to:
+1. **Design an End-to-End Data Pipeline:**  
+   Clean → Query → Model → Visualize → Storytell  
+2. **Apply Advanced SQL Techniques:**  
+   Window functions, CTEs, ranking, return formulas, scenario modeling  
+3. **Analyze Financial Data:**  
+   Returns, volatility, sector growth, and momentum indicators  
+4. **Tell a Data Story Through Dashboards:**  
+   Translate raw data into investor-ready insights  
+5. **Automate Preprocessing in Python:**  
+   Cleaning, handling nulls, formatting datasets for Tableau  
 
-A $10K investment in TSLA would now be worth over $272K
+---
 
-Sector trends reveal which industries outperformed across different market cycles
-
-This dashboard helps a new investor quickly understand where the strongest opportunities were and how risk shaped the journey.
-
-🧠 What I Learned
-✅ 1. End-to-End Data Pipeline Design
-
-Collect → Clean → Query → Model → Visualize → Storytell
-
-✅ 2. Advanced SQL Techniques
-
-Window functions (LAG, LEAD, RANK, ROW_NUMBER)
-
-CTEs for modular and readable transformations
-
-Return calculations, YoY metrics, volatility logic
-
-Portfolio simulation modeling
-
-✅ 3. Financial Analytics Concepts
-
-Total return %
-
-Volatility as a risk measurement
-
-Sector performance modeling
-
-Rolling momentum indicators
-
-✅ 4. Dashboard Storytelling
-
-Turning raw data into a narrative around:
-
-Risk vs reward
-
-Performance comparison
-
-Long-term value creation
-
-✅ 5. Python for Preprocessing & Automation
-
-Cleaning and formatting raw CSVs
-
-Handling missing or inconsistent data
-
-Automating dataset refreshes
+**Connect With Me:**  
+  www.linkedin.com/in/manyang-taal 
+  manyangtaal5@gmail.com.com  
