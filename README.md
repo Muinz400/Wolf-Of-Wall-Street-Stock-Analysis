@@ -9,10 +9,10 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 
 ---
 
-## 📊 Interactive Dashboard
+## Interactive Dashboard
 
 **View the Tableau Story:**  
-👉 [INSERT YOUR TABLEAU PUBLIC LINK HERE]
+[![Dashboard Preview](Wolf-Of-Wall-Street-Stock-Analysis.png)](https://public.tableau.com/views/WolfofWallStreetAData-DrivenStockMarketAnalysis20162024/WolfofWallStreetAData-DrivenStockMarketAnalysis20162024?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 > The Tableau Story walks through all 6 SQL analyses and concludes with a full investor dashboard — letting viewers slide through each step of the analysis and end with a visual summary of insights.
 
@@ -44,8 +44,8 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 
 Each SQL script produced a unique dataset that contributed to the full Tableau story.
 
-| # | Query | Purpose & Key Findings |
-|---|--------|------------------------|
+| # | Query | 
+|---|--------|
 | **1️ Top Performing Stocks** | Ranked total returns (2016–2024). TSLA led the decade. |
 | **2️ Year-over-Year Growth** | Measured annual price growth. Tech and Financials showed the strongest YoY momentum; Healthcare maintained steady gains. |
 | **3️ Volatility Index** | Calculated yearly price fluctuation. JNJ was the most stable, TSLA the most volatile. |
