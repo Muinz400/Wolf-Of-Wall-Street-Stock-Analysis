@@ -1,4 +1,4 @@
-# 🐺 Wolf of Wall Street: A Data-Driven Stock Market Analysis (2016–2024)
+# Wolf of Wall Street: A Data-Driven Stock Market Analysis (2016–2024)
 
 ### End-to-End SQL + Python + Tableau Project
 
@@ -19,15 +19,15 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 
 ---
 
-## 🛠 Tools Used
+
+## Tools Used
 
 | Tool | Purpose |
 |------|----------|
-| **PostgreSQL** | Complex financial queries, window functions, and CTEs |
-| **SQL** | Data modeling, return metrics, simulated portfolio logic |
-| **Python** | Data cleaning, preprocessing, automation scripts |
-| **CSV Modeling** | Structured exports for BI visualization |
-| **Tableau Public** | KPI visualization, sector charts, dashboard design |
+| **PostgreSQL (SQL)** | Financial calculations, window functions, CTEs, and portfolio modeling |
+| **Python** | Data cleaning, preprocessing, and automation scripts |
+| **CSV Modeling** | Structured exports for Tableau Public visualization |
+| **Tableau Public** | KPI visualization, sector charts, and dashboard design |
 
 ---
 
@@ -51,7 +51,7 @@ Each SQL script produced a unique dataset that contributed to the full Tableau s
 | **2️ Year-over-Year Growth** | Measured annual price growth. Tech and Financials showed the strongest YoY momentum; Healthcare maintained steady gains. |
 | **3️ Volatility Index** | Calculated yearly price fluctuation. JNJ was the most stable, TSLA the most volatile. |
 | **4️ Moving Averages** | Compared 50-day vs 200-day trends to classify momentum as Bullish or Bearish. |
-| **5️ Sector Performance** | Aggregated returns by sector. Financials led, followed by Tech and Industrials. |
+| **5️ Sector Performance** | Aggregated returns by sector. Financials led, followed by Healthcare. |
 | **6 Simulated $10K Portfolio** | Modeled a $10K investment per stock since 2016 — TSLA yielded the highest growth. |
 
 ---
@@ -61,9 +61,9 @@ Each SQL script produced a unique dataset that contributed to the full Tableau s
 This analysis tracked each stock’s average yearly growth to identify consistent compounders versus volatile performers.
 
 **Highlights:**
-- **Tech and Financials** had the most persistent upward momentum.  
+- **Consumer Discretionary and Financials** had the most persistent upward momentum.  
 - **TSLA** surged in 2020–2021 but faced post-rally volatility.  
-- **Healthcare & Consumer Staples** (like **JNJ**, **PG**) showed slower but steady gains.  
+- **Healthcare & Tech** (comapanies like **MSFT** and **JPM**) showed slower but steady gains.  
 
 YoY trends revealed which stocks built sustainable value over time — not just short-term spikes.
 
@@ -91,7 +91,7 @@ This project analyzed 14 stocks across key U.S. industries:
 - Healthcare  
 - Consumer Staples  
 - Energy  
-- Industrials  
+,etc 
 
 **Financials** achieved the strongest cumulative growth, while **Healthcare** remained the most consistent through market cycles.
 
@@ -139,4 +139,4 @@ This project strengthened my ability to:
 **Connect With Me:**  
   www.linkedin.com/in/manyang-taal 
   
-  manyangtaal5@gmail.com.com  
+  manyangtaal5@gmail.com
