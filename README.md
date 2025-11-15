@@ -17,6 +17,7 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 
 > The Tableau Story walks through all 6 SQL analyses and concludes with a full investor dashboard — letting viewers slide through each step of the analysis and end with a visual summary of insights.
 
+
 ---
 
 
@@ -31,6 +32,7 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 
 ---
 
+
 ## Key Insights
 
 - **Top Performing Stock:** Tesla (TSLA) delivered the highest cumulative return (~2,627%).  
@@ -40,6 +42,7 @@ Using **PostgreSQL**, **Python**, and **Tableau**, I transformed raw price data 
 - **Volatility Patterns:** Tech tickers showed high growth but larger drawdowns, while Healthcare and Consumer Staples remained steady.
 
 ---
+
 
 ## Query Summaries
 
@@ -56,6 +59,7 @@ Each SQL script produced a unique dataset that contributed to the full Tableau s
 
 ---
 
+
 ## Year-Over-Year (YoY) Trend Analysis
 
 This analysis tracked each stock’s average yearly growth to identify consistent compounders versus volatile performers.
@@ -69,6 +73,7 @@ YoY trends revealed which stocks built sustainable value over time — not just 
 
 ---
 
+
 ## Dashboard Overview
 
 The Tableau Dashboard brings together all insights into one cohesive investor view:
@@ -81,6 +86,7 @@ The Tableau Dashboard brings together all insights into one cohesive investor vi
 > The dashboard tells one clear story — **where long-term investors could find both profit and stability.**
 
 ---
+
 
 ## Top Sectors Represented
 
@@ -108,6 +114,7 @@ Therefore:
 
 ---
 
+
 ## Final Insights
 
 - TSLA dominated in long-term total return.  
@@ -119,6 +126,7 @@ Therefore:
 This analysis gives investors a **data-driven perspective** on balancing growth, stability, and sector strength over time.
 
 ---
+
 
 ## What I Learned
 
@@ -135,6 +143,7 @@ This project strengthened my ability to:
    Cleaning, handling nulls, formatting datasets for Tableau  
 
 ---
+
 
 **Connect With Me:**  
   www.linkedin.com/in/manyang-taal 
