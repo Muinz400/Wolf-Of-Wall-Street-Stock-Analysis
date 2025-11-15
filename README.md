@@ -97,7 +97,11 @@ This project analyzed 14 stocks across key U.S. industries:
 - Healthcare  
 - Consumer Staples  
 - Energy  
-,etc 
+- Automotive
+- Telecommunications
+- Consumer Discretionary
+
+  
 
 **Financials** achieved the strongest cumulative growth, while **Healthcare** remained the most consistent through market cycles.
 
@@ -124,6 +128,7 @@ Therefore:
 - Dashboard visualization made risk vs. reward easy to compare.
 
 This analysis gives investors a **data-driven perspective** on balancing growth, stability, and sector strength over time.
+
 
 ---
 
