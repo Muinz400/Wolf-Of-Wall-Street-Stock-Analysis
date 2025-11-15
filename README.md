@@ -54,7 +54,7 @@ Each SQL script produced a unique dataset that contributed to the full Tableau s
 | **2️ Year-over-Year Growth** | Measured annual price growth. Tech and Financials showed the strongest YoY momentum; Healthcare maintained steady gains. |
 | **3️ Volatility Index** | Calculated yearly price fluctuation. JNJ was the most stable, TSLA the most volatile. |
 | **4️ Moving Averages** | Compared 50-day vs 200-day trends to classify momentum as Bullish or Bearish. |
-| **5️ Sector Performance** | Aggregated returns by sector. Financials led, followed by Healthcare. |
+| **5️ Sector Performance** | Aggregated returns by sector. Financials led, followed by Healthcare, while **Healthcare** remained the most consistent through market cycles. |
 | **6 Simulated $10K Portfolio** | Modeled a $10K investment per stock since 2016 — TSLA yielded the highest growth. |
 
 ---
@@ -116,23 +116,74 @@ Therefore:
 - Figures are intended for **comparative and educational analysis only.**  
 - This is **not financial advice.**
 
+
 ---
+## Investment Recommendations (Based on 2016–2024 Data)
 
+Using the results from the SQL queries and Tableau dashboard, this section summarizes which stocks performed best across **return, risk, and consistency metrics** from 2016–2024.  
 
-## Final Insights
-
-- TSLA dominated in long-term total return.  
-- JNJ remained the most stable stock by volatility.  
-- Financials led all sectors in overall performance.  
-- $10K in TSLA (2016) ≈ $272K by 2024.  
-- Dashboard visualization made risk vs. reward easy to compare.
-
-This analysis gives investors a **data-driven perspective** on balancing growth, stability, and sector strength over time.
-
+> *This analysis is for educational and comparative purposes only — not financial advice.*
 
 ---
 
+### High-Risk, High-Reward Stocks
+*Massive upside potential but significant volatility — suitable for aggressive investors.*
 
+| Stock | Sector | Key Insight |
+|--------|---------|-------------|
+| **Tesla (TSLA)** | Technology / EV | Highest total return (~2,627%) with extreme price swings; short-term corrections but long-term explosive growth. |
+| **Amazon (AMZN)** | Consumer Discretionary | Delivered strong cumulative returns; volatile during market cycles but recovered consistently. |
+
+---
+
+### Balanced Performers (Strong Returns with Moderate Risk)
+*Reliable growth and stability — great for medium-risk, long-term investors.*
+
+| Stock | Sector | Key Insight |
+|--------|---------|-------------|
+| **Apple (AAPL)** | Technology | Steady YoY growth and high profitability; strong long-term compounding effect. |
+| **Microsoft (MSFT)** | Technology | Consistent positive returns; low drawdowns and reliable fundamentals. |
+| **JPMorgan Chase (JPM)** | Financials | Balanced sector leader; steady appreciation through changing interest-rate environments. |
+
+---
+
+### Stable, Defensive Stocks
+*Lower volatility and dependable growth — ideal for conservative, long-term investors.*
+
+| Stock | Sector | Key Insight |
+|--------|---------|-------------|
+| **Johnson & Johnson (JNJ)** | Healthcare | Lowest volatility in the dataset; reliable long-term appreciation and strong defensive profile. |
+| **Pfizer (PFE)** | Healthcare | Stable performance with limited downside risk; modest but consistent growth across years. |
+| **Walmart (WMT)** | Consumer Staples / Retail | Dependable performance through all market conditions; steady growth and resilience. |
+
+---
+
+### Underperformers or Higher-Risk with Limited Upside
+*Stocks that showed weaker or inconsistent returns compared to top performers.*
+
+| Stock | Sector | Key Insight |
+|--------|---------|-------------|
+| **ExxonMobil (XOM)** | Energy | Inconsistent results due to oil price volatility; sharp downturns during market shocks. |
+| **Bank of America (BAC)** | Financials | Moderate returns but lagged behind JPM in overall consistency and growth. |
+
+---
+
+### Suggested Portfolio Mix (for a New Investor)
+A balanced portfolio based on the 2016–2024 analysis might look like this:
+
+| Category | Allocation | Example Picks |
+|-----------|-------------|----------------|
+| **High-Reward Growth** | 25–30% | TSLA, AMZN |
+| **Balanced Core** | 40–50% | AAPL, MSFT, JPM |
+| **Defensive Stability** | 20–30% | JNJ, PFE, WMT |
+
+> This mix balances **growth potential** with **downside protection**, aligning with the data-driven insights found in the Tableau dashboard.
+
+---
+
+These recommendations directly connect to the Tableau Story, where users can visually explore how **risk, reward, and sector performance** interacted over the nine-year period.
+
+---
 ## What I Learned
 
 This project strengthened my ability to:
